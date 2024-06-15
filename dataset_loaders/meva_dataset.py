@@ -10,7 +10,7 @@ from .utils import cache_matrices
 
 
 class MevaDataset(BaseDataset):
-    dataset_name = 'llm-aes/meva-annotated-latest'
+    dataset_name = 'xxx'
 
     def __init__(self):
         pass

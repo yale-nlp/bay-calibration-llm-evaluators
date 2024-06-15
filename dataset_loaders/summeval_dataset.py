@@ -10,7 +10,7 @@ from .utils import cache_matrices
 
 
 class SummEvalDataset(BaseDataset):
-    dataset_name = 'llm-aes/summeval-gpt2-vs-all-annotated-latest'
+    dataset_name = 'xxx'
 
     def __init__(self):
         pass

@@ -10,7 +10,7 @@ from .utils import cache_matrices, flip_labels
 
 
 class LLMEval2Dataset(BaseDataset):
-    dataset_name = 'llm-aes/llmeval2-annotated-latest'
+    dataset_name = 'xxx'
 
     def __init__(self):
         pass

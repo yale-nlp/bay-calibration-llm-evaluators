@@ -10,7 +10,7 @@ from .utils import cache_matrices, flip_labels
 
 
 class MTBenchDataset(BaseDataset):
-    dataset_name = 'llm-aes/mtbench-annotated-latest'
+    dataset_name = 'xxx'
 
     def __init__(self):
         pass

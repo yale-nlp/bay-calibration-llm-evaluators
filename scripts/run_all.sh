@@ -25,7 +25,6 @@ scripts=(
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/LLMBar.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/Hanna.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/SummEval.sh" \
-"./scripts/bayesian_ds/golden_labels_vary_prior_ratio/PandaLM.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/Meva.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/MTBench.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/LLMEval2.sh" \

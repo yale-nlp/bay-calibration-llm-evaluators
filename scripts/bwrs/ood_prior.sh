@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # "LLMBar" "MTBench" "LLMEval2" "FairEval" is not able to do ood_prior with no generator information
-datasets=("Hanna" "Meva" "PandaLM" "SummEval")
+datasets=("Hanna" "Meva" "SummEval")
 
 for dataset in ${datasets[@]}
 do
