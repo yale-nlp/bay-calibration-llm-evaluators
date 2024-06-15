@@ -4,7 +4,6 @@ import pickle
 import datasets
 from pathlib import Path
 
-from dataset_loaders.evaluators.alpaca_farm_evaluators import AlpacaFarmEvaluators
 from .base_dataset import BaseDataset
 from .utils import cache_matrices
 

@@ -25,9 +25,6 @@ def parse_args():
 
     parser.add_argument("--dataset_p", type=float, default=0.8) # The customized p value for reorganizing the original dataset.
 
-    # --evaluators is not well-supported for now
-    parser.add_argument("--evaluators", type=str, default='AlpacaFarm')
-
     # calibrator arguments
     parser.add_argument("--calibrator", type=str, default='BayesianDawidSkene')
     parser.add_argument("--calibrator_sample_size", type=int, default=10000)
