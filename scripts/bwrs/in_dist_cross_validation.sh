@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datasets=("Hanna" "Meva" "SummEval" "LLMBar" "MTBench" "LLMEval2" "FairEval")
+datasets=("Hanna" "Meva" "SummEval" "LLMBar" "MTBench" "LLMEval2")
 
 for dataset in ${datasets[@]}
 do

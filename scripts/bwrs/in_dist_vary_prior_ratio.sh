@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datasets=("Hanna" "Meva" "SummEval" "LLMBar" "MTBench" "LLMEval2" "FairEval")
+datasets=("Hanna" "Meva" "SummEval" "LLMBar" "MTBench" "LLMEval2")
 
 for ratio in $(seq 0.1 0.1 1.0)
 do

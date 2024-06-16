@@ -8,7 +8,6 @@ scripts=(
 "./scripts/bwrs/in_dist_vary_prior_ratio/Meva.sh" \
 "./scripts/bwrs/in_dist_vary_prior_ratio/MTBench.sh" \
 "./scripts/bwrs/in_dist_vary_prior_ratio/LLMEval2.sh" \
-"./scripts/bwrs/in_dist_vary_prior_ratio/FairEval.sh" \
 
 "./scripts/bayesian_ds/ood_prior/Meva.sh" \
 "./scripts/bayesian_ds/ood_prior/Hanna.sh" \
@@ -20,7 +19,6 @@ scripts=(
 "./scripts/bayesian_ds/no_prior/Meva.sh" \
 "scripts/bayesian_ds/no_prior/MTBench.sh" \
 "scripts/bayesian_ds/no_prior/LLMEval2.sh" \
-"scripts/bayesian_ds/no_prior/FairEval.sh" \
 
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/LLMBar.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/Hanna.sh" \
@@ -28,7 +26,6 @@ scripts=(
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/Meva.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/MTBench.sh" \
 "./scripts/bayesian_ds/golden_labels_vary_prior_ratio/LLMEval2.sh" \
-"./scripts/bayesian_ds/golden_labels_vary_prior_ratio/FairEval.sh" \
 )
 
 # No more than 16 parallel jobs
