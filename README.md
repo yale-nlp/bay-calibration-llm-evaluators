@@ -1,6 +1,6 @@
 # Bayesian Calibration of Win Rate Estimation with LLM Evaluators
 
-This is the code repo for EMNLP 2024 submission "Bayesian Calibration of Win Rate Estimation with LLM Evaluators".
+This is the code repo for EMNLP 2024 paper "Bayesian Calibration of Win Rate Estimation with LLM Evaluators".
 
 ## Datasets
 
