@@ -1,6 +1,7 @@
 #!/bin/bash
 
-datasets=("Hanna" "Meva" "SummEval" "LLMBar" "MTBench" "LLMEval2")
+# "LLMBar" "MTBench" "LLMEval2" is not able to do ood_prior with no generator information
+datasets=("Meva")
 
 for dataset in ${datasets[@]}
 do
@@ -10,6 +11,6 @@ do
                     --dataset ${dataset} \
                     --calibrator None \
                     --compare_models All \
-                    --q_prior_cv_folds 5 \
-                    --plot_dir results/plots/${dataset}-bwrs/in_dist_cv |& tee results/logs/${dataset}-bwrs/in_dist_cv.log
+                    --q_prior_ood \
+                    --plot_dir results/plots/${dataset}-bwrs/ood_prior |& tee results/logs/${dataset}-bwrs/ood_prior.log
 done
