@@ -35,5 +35,13 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 If you use our code, data, or methodology in your work, please cite our paper:
 
 ```
-
+@misc{gao2024bayesiancalibrationwinrate,
+      title={Bayesian Calibration of Win Rate Estimation with LLM Evaluators}, 
+      author={Yicheng Gao and Gonghan Xu and Zhe Wang and Arman Cohan},
+      year={2024},
+      eprint={2411.04424},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.04424}, 
+}
 ```
