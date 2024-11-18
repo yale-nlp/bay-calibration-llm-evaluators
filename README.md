@@ -2,6 +2,8 @@
 
 This is the code repo for EMNLP 2024 paper "Bayesian Calibration of Win Rate Estimation with LLM Evaluators".
 
+[![arXiv](https://img.shields.io/badge/arXiv-2411.04424v1-b31b1b.svg)](https://arxiv.org/abs/2411.04424v1)
+
 ## Introduction
 
 Recent advances in large language models (LLMs) show the potential of using LLMs as evaluators for assessing the quality of text generations from LLMs. However, applying LLM evaluators naively to compare different systems can lead to unreliable results due to inaccuracy and intrinsic bias of LLM evaluators. In order to mitigate this problem, we propose two calibration methods, Bayesian Win-Rate Sampling (BWRS) and Bayesian Dawid-Skene, both of which leverage Bayesian inference to more accurately infer the true win rate of generative language models. We empirically validate our methods on six datasets covering story generation, summarization, and instruction following tasks. We show that both our methods are effective in improving the accuracy of win rate estimation using LLMs as evaluators, offering a promising direction for reliable automatic text quality evaluation.
